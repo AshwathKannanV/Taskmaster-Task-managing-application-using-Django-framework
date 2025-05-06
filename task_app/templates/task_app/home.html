@@ -1,0 +1,19 @@
+<!-- tasks/templates/home.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Home Page</title>
+</head>
+<body>
+    <h1>Welcome to the Task Manager!</h1>
+    <ul>
+        <li><a href="{% url 'admin:index' %}">Admin page</a></li>
+        <li><a href="{% url 'list_task' %}">Task Manager</a></li>
+
+        <!-- Add more links as needed -->
+    </ul>
+</body>
+</html>
