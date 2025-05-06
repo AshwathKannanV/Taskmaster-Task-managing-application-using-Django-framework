@@ -40,14 +40,14 @@ Its main functions are :
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/Chouaib-Djerdi/Task-Manager.git
+$ git clone https://github.com/AshwathKannanV/Task-Manager.git
 $ cd task_manager
 ```
 
 Create a virtual environment to install dependencies in and activate it:
 
 ```sh
-$ virtualenv2 --no-site-packages env
+$ python -m venv venv 
 $ source env/bin/activate
 ```
 
