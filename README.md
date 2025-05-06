@@ -40,7 +40,7 @@ Its main functions are :
 The first thing to do is to clone the repository:
 
 ```sh
-$ git clone https://github.com/AshwathKannanV/Task-Manager.git
+$ git clone https://github.com/AshwathKannanV/Taskmaster-Task-managing-application-using-Django-framework.git
 $ cd task_manager
 ```
 
